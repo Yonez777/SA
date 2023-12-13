@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+}
+
+.logo {
+    margin-top: -150px;
+    float: left;
+    margin-left: 40px;
+}
+
+.logo img {
+    width: 180px;
+    height: 150px;
+}
+
+.nav {
+    margin-top: -80px;
+    justify-content: center;
+    margin-right: 30px;
+    text-align: right;
+    float: right;
+}
+
+nav > ul{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    padding: 0;
+}
+
+nav ul li{
+    margin-left: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: purple;
+}
+
+.card {
+    margin-top: 100px;
+    margin-bottom: 60px;
+    margin-left: 770px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(191, 0, 212);
+    padding: 20px;
+    text-align: left;
+    width: 300px;
+    transform: scale(1.08);
+    background-color: rgb(128, 0, 128);
+    color: white;
+    margin-top: 150px;
+}
+
+.card img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.card h1 {
+    color:rgb(255, 255, 255);
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.card form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.card label {
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: 800;
+}
+
+.card input[type="text"],
+.card input[type="email"],
+.card input[type="password"],
+.card input[type="number"],
+.card input[type="number"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: rgba(128, 0, 128, 0.402);
+    color: white;
+}
+
+.card input[type="radio"],
+.card input[type="checkbox"]{
+    text-align: left;
+    width: 30px;
+}
+
+
+.card input[type="submit"] {
+    background: rgb(183, 41, 183);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.card input[type="submit"]:hover {
+    background: rgb(90, 0, 90);
+}
+
+.btn {
+    display: inline-block;
+    background-color:  rgb(183, 41, 183);
+    color:rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 13px;
+    margin-top: 10px;
+    width: 280px;
+}
+
+.btn:hover {
+    background: rgb(90, 0, 90);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.mensagem {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+    text-align: center;
+    color: #333;
+}
+
+.btn-retorno {
+    display: inline-block;
+    background-color:  rgb(183, 41, 183);
+    color:rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 13px;
+    margin-top: 10px;
+    width: 280px;
+}
+
+.btn-retorno:hover {
+    background: rgb(90, 0, 90);
+}
+
+footer{
+    display: flex; 
+    justify-content: center;
+}
+
+footer img {
+    width: 50px;
+    height: 40px;
+    display: inline-block;
+}
+
+footer a {
+    color: white;
+    margin: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    margin-top: 0px;
+}
+
+.container {
+    padding: 0px 50px;
+}
